@@ -33,6 +33,55 @@
   text-decoration: line-through;
 }
 
+.fa-star{
+  margin: 0.5em;
+  font-size: 24px;
+}
+
+span{
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected{
+  background-color: #eee;
+  color: #ddd;
+  cursor:not-allowed;
+}
+
+.used{
+  background-color: #aaddaa;
+  color: #99bb99;
+  cursor:not-allowed;
+}
+
+.fa-clock-o{
+  margin: 0.5em;
+  font-size: 100px !important;
+}
+
+.my-clock{
+  display: inline-block;
+  margin: 1em;
+  text-align: center;
+  /* background-color: #ccc; */
+  /* width: 24px; */
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+
+.router-header{
+  display: inline-flex;
+  list-style: none;
+}
+
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
